@@ -18,7 +18,7 @@
     <div class="container">
         <div class="row" style="padding-top: 25px; padding-bottom: 25px;">
             <!-- Search Menu for City -->
-            <div class="col-4">
+            <div class="citySearch col-4">
                <h5> Search for a City: </h5>
                 <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search City.." title="Type in a category">
             </div>
@@ -26,25 +26,25 @@
             <div class="col-8">
                 <div class="card">
                     <div class="card-body">
-                        <h3 class="card-city">City</h3>
-                        <h5 class="card-date">Date</h5>
-                        <p class="card-temp">Temperature: </p>
-                        <p class="card-humid">Humidity: </p>
-                        <p class="card-wind">Wind Speed: </p>
-                        <p class="card-uv">UV Index: </p>
+                        <h3 id="card-city">City</h3>
+                        <h5 id="card-date">Date</h5>
+                        <p id="card-temp">Temperature: </p>
+                        <p id="card-humid">Humidity: </p>
+                        <p id="card-wind">Wind Speed: </p>
+                        <p id="card-uv">UV Index: </p>
                     </div>
                 </div>
             </div>
         </div>
         
-        <div class="row ">
+        <div class="row">
             <h5>5-Day Forecast:</h5>
         </div>
 
         <div class="row justify-content-between">
             <!-- 5-Day Projected Forecast -->
             <div class="col-2">
-                <div class="card">
+                <div class="cardF">
                     <div class="card-body">
                         <h5 class="card-title">Date</h5>
                         <p class="card-temp">Temperature: </p>
@@ -53,7 +53,7 @@
                   </div>
             </div>
             <div class="col-2">
-                <div class="card">
+                <div class="cardF">
                     <div class="card-body">
                         <h5 class="card-title">Date</h5>
                         <p class="card-temp">Temperature: </p>
@@ -62,7 +62,7 @@
                   </div>
             </div>
             <div class="col-2">
-                <div class="card">
+                <div class="cardF">
                     <div class="card-body">
                         <h5 class="card-title">Date</h5>
                         <p class="card-temp">Temperature: </p>
@@ -71,7 +71,7 @@
                   </div>
             </div>
             <div class="col-2">
-                <div class="card">
+                <div class="cardF">
                     <div class="card-body">
                         <h5 class="card-title">Date</h5>
                         <p class="card-temp">Temperature: </p>
@@ -80,7 +80,7 @@
                   </div>
             </div>
             <div class="col-2">
-                <div class="card">
+                <div class="cardF">
                     <div class="card-body">
                         <h5 class="card-title">Date</h5>
                         <p class="card-temp">Temperature: </p>
