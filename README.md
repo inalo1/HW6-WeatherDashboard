@@ -9,7 +9,7 @@ Presenting a weather dashboard that will run in the browser and feature dynamica
 * JavaScript
 
 ## Live Link:
-Weather Dashboard: https://inalo1.github.io/HW6-WeatherDashboard/
+Weather Dashboard: https://inalo1.github.io/Weather-Dashboard/
 
 ## Quick Look:
 ![weather dash](https://user-images.githubusercontent.com/73044038/112264378-cbccf500-8c3e-11eb-992d-f4c3dd35e949.png)
